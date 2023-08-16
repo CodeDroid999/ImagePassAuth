@@ -15,7 +15,7 @@ export default function Home() {
             <div className="flex-col md:flex-row flex justify-around mt-8 sm:mt-16 font-['Work_Sans']">
 
                 <div className="sm:hidden flex justify-center">
-                    <img alt="" className="rounded-[25px] w-[90%]" src="https://i.pinimg.com/736x/67/a1/a1/67a1a1b9b21505a42648010e3669076e.jpg"/>
+                    <img alt="" className="rounded-[25px] w-[90%]" src="https://i.postimg.cc/KvCYRFgs/57a8f5cb7d8b39de2f160e5d530865a9.jpg"/>
                 </div>
 
                 {/*INFO*/}
@@ -23,17 +23,17 @@ export default function Home() {
                     <p className="text-3xl sm:text-6xl font-bold">Discover </p>
                     <p className="text-3xl sm:text-6xl font-bold">Graphical Password</p>
                     <p className="text-3xl sm:text-6xl font-bold">Authentication</p>
-                    <p className="text-xl sm:text-3xl mt-6">A Novel Approach For Security </p>
-                    <p className="text-xl sm:text-3xl">And User Experience Of </p>
-                    <p className="text-xl sm:text-3xl">Graphical Password Authentication.</p>
-                    <button onClick={handleKnowMore} className="transition duration-500 ease-in-out sm:w-1/3 bg-[#A259FF] rounded-lg px-4 py-1 mt-6 sm:text-xl border-[#A259FF] border-2 hover:bg-transparent">
+                    <p className="text-xl sm:text-3xl mt-6">An Inclusive security approach </p>
+                    <p className="text-xl sm:text-3xl">And User Experience for </p>
+                    <p className="text-xl sm:text-3xl">people living with Dyslexia.</p>
+                    <button onClick={handleKnowMore} className="transition duration-500 ease-in-out sm:w-1/3 bg-blue-600 rounded-lg px-4 py-1 mt-6 sm:text-xl border-blue-600 border-2 hover:bg-transparent">
                         <FontAwesomeIcon className="text-white mr-3" icon={faUnlock} />
-                        Know More
+                        Learn More
                     </button>
                 </div>
                 {/*IMAGE*/}
                 <div className="hidden sm:block">
-                    <img alt="" className=" hover:scale-95 transition duration-500 ease-in-out hover:shadow-2xl hover:shadow-[#A259FF80] rounded-[25px] w-full" src="https://i.pinimg.com/736x/67/a1/a1/67a1a1b9b21505a42648010e3669076e.jpg"/>
+                    <img alt="" className=" hover:scale-95 transition duration-500 ease-in-out hover:shadow-2xl hover:shadow-blue-600 rounded-[25px] w-full" src="https://i.postimg.cc/Y2d0BZfj/About-Graphical-Password.jpg"/>
                 </div>
             </div>
 
