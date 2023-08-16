@@ -20,7 +20,7 @@ export default function Navbar(props) {
             {/*logo and text*/}
             <div className="flex items-center cursor-pointer" onClick={() => window.location.reload()}>
                 <img className="" width="24px" src="https://img.icons8.com/material-rounded/48/A259FF/cyber-security.png" alt=""/>
-                <p className="md:text-xl text-white ml-2 font-['Space_Mono']">Graphical Password Auth</p>
+                <p className="md:text-xl text-white ml-2 font-['Space_Mono']">GPA</p>
             </div>
 
             {/*nav element list*/}
@@ -30,8 +30,8 @@ export default function Navbar(props) {
                 <p className={`hover:text-gray-300 cursor-pointer text-xl ml-12 mr-20 ${props.currentPage === Page.CONTACT ? additionalClasses : ""}`} onClick={() => setPage(Page.CONTACT)}>Contact</p>
 
                 {!props.loggedIn && <div>
-                    <button onClick={() => setPage(Page.LOGIN_PAGE)} className="transition duration-500 ease-in-out bg-[#A259FF] rounded-lg px-4 py-1 ml-12 border-[#A259FF] border-2 hover:bg-transparent">Login</button>
-                    <button onClick={() => setPage(Page.SIGNUP_PAGE)} className="transition duration-500 ease-in-out bg-[#A259FF] rounded-lg px-4 py-1 ml-6 border-[#A259FF] border-2 hover:bg-transparent">Sign Up</button>
+                    <button onClick={() => setPage(Page.LOGIN_PAGE)} className="transition duration-500 ease-in-out bg-blue-900 rounded-lg px-4 py-1 ml-12 border-blue-600 border-2 hover:bg-transparent">Login</button>
+                    <button onClick={() => setPage(Page.SIGNUP_PAGE)} className="transition duration-500 ease-in-out bg-blue-900 rounded-lg px-4 py-1 ml-6 border-blue-600 border-2 hover:bg-transparent">Sign Up</button>
                 </div>}
 
                 {props.loggedIn && <div className="flex">
