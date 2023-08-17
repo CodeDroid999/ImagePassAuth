@@ -135,10 +135,7 @@ export default function Login(props) {
             {blocked && <BlockedBox onClick={setBlocked}/>}
 
             {!next && <div className="flex justify-center h-full">
-                {/*IMAGE*/}
-                <div className="hidden sm:block">
-                    <img className="transition duration-500 ease-in-out hover:scale-95 h-full" alt="" src="../static/img/signup.png"/>
-                </div>
+
                 {/*LOGIN FORM*/}
                 <div className="font-['Work_Sans'] mt-16">
                     <p className="text-white text-3xl sm:text-5xl sm:font-bold px-4 sm:px-0">Login</p><br/>
