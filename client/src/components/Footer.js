@@ -33,15 +33,15 @@ export default function Footer(props) {
     }
 
     return (
-        <div className="bg-[#3B3B3B]">
-            <div className="bg-[#3B3B3B] mt-24 flex justify-around flex-col sm:flex-row">
+        <div className="bg-blue-900">
+            <div className="bg-blue-900 mt-24 flex justify-around flex-col sm:flex-row">
 
                 <div className="ml-4 sm:ml-12 mt-6">
                     <div className="flex">
-                        <img className="" width="24px" src="https://img.icons8.com/material-rounded/48/A259FF/cyber-security.png" alt=""/>
+                        <img className="" width="24px" src="https://i.postimg.cc/9MpW40Mh/png-transparent-logo-shield-black-shield-white-and-black-shield-logo-emblem-monochrome-black-thumbna.png" alt=""/>
                         <p className="sm:text-xl text-white ml-2 font-['Space_Mono']">GPA</p>
                     </div>
-                    <p className="text-gray-300 font-['Work_Sans'] mt-2 sm:mt-4">A Novel Approach For Security</p>
+                    <p className="text-gray-300 font-['Work_Sans'] mt-2 sm:mt-4">An inclusive approach for online security</p>
                 </div>
 
                 <div className="ml-4 sm:ml-0 text-white mt-6">
@@ -51,19 +51,18 @@ export default function Footer(props) {
                 </div>
 
                 <div className="hidden sm:block text-white mt-6">
-                    <p className="font-['Space_Mono'] text-xl">Join Our Monthly Digest</p>
-                    <p className="text-gray-300 font-['Work_Sans'] mt-4">Get Exclusive Promotions & Updates.</p>
+                    <p className="font-['Space_Mono'] text-xl">Join Our weekly email list</p>
+                    <p className="text-gray-300 font-['Work_Sans'] mt-4">Get Exclusive Updates.</p>
 
                     <div className="flex font-['Work_Sans']">
                         <input value={email} onChange={handleChange} className="text-black mt-4 rounded-lg px-4 z-10" placeholder="Your Email"/>
-                        <button onClick={handleSubmit} className="transition duration-300 ease-in w-1/3 bg-[#A259FF] rounded-lg mt-4 border-[#A259FF] px-1 border-2 hover:bg-transparent z-20 hover:z-0 -ml-4">
+                        <button onClick={handleSubmit} className="transition duration-300 ease-in w-1/3 bg-blue-900 rounded-lg mt-4 border-[#A259FF] px-1 border-2 hover:bg-transparent z-20 hover:z-0 -ml-4">
                             Subscribe
                         </button>
                     </div>
                 </div>
             </div>
-            <hr className="rounded-full border-gray-300 border-1 bg-gray-200 h-px mt-8 mx-auto w-3/4"/>
-            <p className="mt-2 text-[#9b9b9b] sm:text-md text-sm text-center pb-4">© Group 37, VIT BHOPAL</p>
+
         </div>
 
     )
