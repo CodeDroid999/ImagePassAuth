@@ -81,9 +81,7 @@ export default function Contact(props) {
                 <button onClick={handleSubmit} className="w-1/4 ml-6 transition duration-500 ease-in-out h-8 sm:h-12 bg-[#A259FF] rounded-full sm:px-6 text-white border-2 hover:bg-transparent border-[#A259FF] sm:font-bold">Submit</button>
             </div>
 
-            <div className="hidden sm:flex items-center w-2/5">
-                <img className="transition duration-500 ease-in-out hover:scale-95 rounded-xl" alt="" src="https://i.ibb.co/P1zYDgh/image.jpg"/>
-            </div>
+           
         </div>
 )
 }
