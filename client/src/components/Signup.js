@@ -154,10 +154,7 @@ export default function Signup(props) {
     return (
         <div className=" sm:h-[38rem] mt-12">
             {!next && <div className="flex justify-center h-full">
-                {/*IMAGE*/}
-                <div className="hidden sm:block">
-                    <img className="transition duration-500 ease-in-out hover:scale-95 h-full" alt="" src="../static/img/signup.png"/>
-                </div>
+
                 {/*SIGNUP FORM*/}
                 <div className="font-['Work_Sans'] mt-4">
                     <p className="px-4 sm:px-0 text-white text-3xl sm:text-5xl sm:font-bold">Create Account</p><br/>
