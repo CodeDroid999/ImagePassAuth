@@ -109,7 +109,7 @@ export default function Home() {
           <p className="text-white text-xl sm:text-2xl mt-3">
             Our System Provides Security Against Popular Attacks.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 mt-2">
             <AttackBlock
               icon="https://img.icons8.com/ios-filled/100/A259FF/re-enter-pincode.png"
               title="Bruteforce"
